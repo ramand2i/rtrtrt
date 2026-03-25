@@ -1,0 +1,16 @@
+{
+  "name": "gold-scalper-bot",
+  "version": "1.0.0",
+  "description": "Gold XAU/USD Scalper Bot — EMA/ATR/RSI/BB strategy on Deriv",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "node-fetch": "2.7.0",
+    "ws": "^8.20.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
